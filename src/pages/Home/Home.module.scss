@@ -1,0 +1,59 @@
+.container{
+    width: 75%;
+    flex: 1;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        background: lightgray;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 8px 0px 5px #333333;
+        opacity: 0.4;
+        z-index: -1;
+    }
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.detail{
+    min-height: 50%;
+    height: fit-content;
+    width: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    h3, h1, p{
+        margin: 1rem 0;
+    }
+    p{
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+}
+
+.icon{
+    width: 2rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
