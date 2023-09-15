@@ -7,7 +7,7 @@ export default function Skill(){
             <div className={styles['top-area']}>
                 <h2>Summary</h2>
                 <p>
-                    In the field of front-end development, I have the capability to implement <span style={{color: '#ff6600'}}>Responsive Web Design (RWD) </span>and <span style={{color: '#ff6600'}}>integrate APIs</span>. I accelerate website development using popular frameworks like <span style={{color: '#ff6600'}}>React</span> and <span style={{color: '#ff6600'}}>Bootstrap</span>. Furthermore, I possess a basic understanding of back-end frameworks and databases, having built simple projects using Express and MongoDB Atlas. In pursuit of my academic and career goals, I have completed Google's Data Analytics certification course, giving me proficiency in data analysis techniques involving R and SQL, as well as experience with data visualization tools.
+                    In the field of front-end development, I have the capability to implement <span style={{color: '#ff6600'}}>Responsive Web Design (RWD) </span>and <span style={{color: '#ff6600'}}>integrate APIs</span>. I accelerate website development using popular frameworks like <span style={{color: '#ff6600'}}>React</span> and <span style={{color: '#ff6600'}}>Bootstrap</span>. Furthermore, I possess a basic understanding of back-end frameworks and databases, having built simple projects using Express and MongoDB Atlas. In pursuit of my academic and career goals, I have completed Google's Data Analytics certification course, giving me proficiency in data analysis techniques involving R and SQL, as well as experience with data visualization tool Tableau.
                 </p>
             </div>
 
