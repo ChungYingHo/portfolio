@@ -1,0 +1,27 @@
+.icon-container{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 1rem 0 0 0;
+        font-size: 1rem;
+    }
+}
+
+.circle-icon {
+    width: 5rem;
+    object-fit: cover;
+}
+
+.react{
+    width: 7.5rem;
+}
+
+.express{
+    height: 5rem;
+}
+
