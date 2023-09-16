@@ -1,0 +1,43 @@
+.container {
+    width: 75%;
+    flex: 1;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-container{
+    width: 48%;
+    padding-top: 5%;
+}
+
+.content{
+    width: 100%;
+    div{
+        margin-bottom: 1.5rem;
+    }
+    h2{
+        margin: 2rem 0 1.5rem;
+        color: darkgray;
+        text-decoration: underline;
+        text-decoration-color: rgb(123, 123, 123);
+    }
+    h3{
+        margin-bottom: 0.5rem;
+        a{
+            color: #ff6600;
+            font-size: 1.3rem;
+        }
+    }
+    p{
+        margin: 0;
+        font-size: 1.2rem;
+        span{
+            font-size: 1rem;
+            color: #ff6600;
+            cursor: pointer;
+        }
+    }
+}

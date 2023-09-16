@@ -3,6 +3,7 @@
     flex: 1;
     margin: 0 auto;
     position: relative;
+    padding-top: 1rem;
 }
 
 .top-area{
@@ -12,7 +13,9 @@
     h2{
         margin: 0 0 1rem 0;
         font-weight: 500;
-        color: #ff6600;
+        color: darkgray;
+        text-decoration: underline;
+        text-decoration-color: rgb(123, 123, 123);
     }
     p{
         margin: 0;

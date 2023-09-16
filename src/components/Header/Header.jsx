@@ -16,7 +16,7 @@ export default function Header(){
     return(
         <div className={styles.container}>
             <nav className={styles.nav}>
-                <h2>Secret Base</h2>
+                <h2>Chung-Ying</h2>
                 <ul className={`${styles['ul-hidden']} ${hamburgerOpen  ? styles['open-ul'] : ''}`}>
                     <li onClick={()=>navigate('/home')}className={location.pathname.startsWith("/home") ? styles.isActive : ''}>Home</li>
                     <li onClick={()=>navigate('/about')} className={location.pathname.startsWith("/about") ? styles.isActive : ''}>About</li>
