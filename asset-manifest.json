@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8f235347.css",
-    "main.js": "/portfolio/static/js/main.fe40d038.js",
+    "main.css": "/portfolio/static/css/main.7d5f160d.css",
+    "main.js": "/portfolio/static/js/main.86c61137.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/self-01-1.png": "/portfolio/static/media/self-01-1.dcdc461e460e1522e1ce.png",
     "static/media/bg.jpg": "/portfolio/static/media/bg.0969b32424819539bc51.jpg",
     "static/media/plantae.png": "/portfolio/static/media/plantae.492848bc25f7d79aec50.png",
+    "static/media/self-01.png": "/portfolio/static/media/self-01.81287e317c7f50f7f064.png",
     "static/media/lemon.png": "/portfolio/static/media/lemon.12a3328c79a4e16653f4.png",
     "static/media/twitter.png": "/portfolio/static/media/twitter.d9b844671533d06bdfc0.png",
     "static/media/alpha-shop.png": "/portfolio/static/media/alpha-shop.4324eb3c03f80f945863.png",
@@ -27,12 +27,12 @@
     "static/media/blogger.png": "/portfolio/static/media/blogger.65a357897580c9b6a044.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "index.html": "/portfolio/index.html",
-    "main.8f235347.css.map": "/portfolio/static/css/main.8f235347.css.map",
-    "main.fe40d038.js.map": "/portfolio/static/js/main.fe40d038.js.map",
+    "main.7d5f160d.css.map": "/portfolio/static/css/main.7d5f160d.css.map",
+    "main.86c61137.js.map": "/portfolio/static/js/main.86c61137.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f235347.css",
-    "static/js/main.fe40d038.js"
+    "static/css/main.7d5f160d.css",
+    "static/js/main.86c61137.js"
   ]
 }
