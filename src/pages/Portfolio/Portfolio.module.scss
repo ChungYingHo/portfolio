@@ -15,3 +15,10 @@
         text-decoration-color: rgb(123, 123, 123);
     }
 }
+
+// RWD
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+}
