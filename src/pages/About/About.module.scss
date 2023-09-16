@@ -42,3 +42,43 @@
         }
     }
 }
+
+// RWD
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sub-container{
+        width: 100%;
+    }
+    .content{
+        div{
+            margin-bottom: 1.75rem;
+        }
+        h2{
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .content {
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3{
+            font-size: 1.1rem;
+            span{
+                font-size: 1rem;
+            }
+        }
+        p{
+            font-size: 1rem;
+            span{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
