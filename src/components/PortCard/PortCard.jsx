@@ -7,7 +7,7 @@ export default function PortCard({name, img, des, url}){
             <div className={styles.content}>
                 <h3>{name}</h3>
                 <p>{des}</p>
-                <a href={url} target='_blank'>View the Website</a>
+                <a href={url} target='_blank' rel="noreferrer">View the Website</a>
             </div>
         </div>
     )
