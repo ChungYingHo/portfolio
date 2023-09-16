@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div className={styles.container}>
             <div className={styles['img-container']}>
-                <img src={require('../../assets/self-01-1.png')} alt="Jeremy" className={styles.photo}/>
+                <img src={require('../../assets/self-01.png')} alt="Jeremy" className={styles.photo}/>
             </div>
 
             <div className={styles.detail}>
