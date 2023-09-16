@@ -57,3 +57,24 @@
     cursor: pointer;
     margin: 0 0.5rem;
 }
+
+// RWD
+@media (max-width: 800px) {
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .img-container{
+        position: relative;
+        width: 60%;
+    }
+    .detail{
+        position: relative;
+        transform: translate(0, 0);
+        width: 100%;
+        text-align: center;
+    }
+}
