@@ -48,3 +48,30 @@
     gap: 2rem;
     justify-content: space-around;
 }
+
+// RWD
+@media (max-width: 800px) {
+    .container {
+        outline: red solid 2px;
+        width: 90%;
+    }
+    .bottom-area{
+        flex-direction: column;
+    }
+    .sub-container{
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-area {
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
