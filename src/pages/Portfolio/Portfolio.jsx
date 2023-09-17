@@ -14,7 +14,7 @@ export default function Portfolio(){
                 <div>
                     {portfolioList.map((data)=>{
                         return(
-                            <PortCard key={data.id} name={data.name} img={data.img} des={data.des} url={data.url}/>
+                            <PortCard key={data.id} name={data.name} img={data.img} des={data.des} url={data.url} rwd={data.rwd}/>
                         )
                     })}
                 </div>
@@ -23,7 +23,7 @@ export default function Portfolio(){
                 <div>
                     {practiceList.map((data)=>{
                         return(
-                            <PortCard key={data.id} name={data.name} img={data.img} des={data.des} url={data.url}/>
+                            <PortCard key={data.id} name={data.name} img={data.img} des={data.des} url={data.url} rwd={data.rwd}/>
                         )
                     })}
                 </div>

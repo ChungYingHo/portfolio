@@ -17,14 +17,16 @@ const portfolioList = [
         name: 'PLANTAE Taiwan',
         img: plantaeImg,
         des: 'This project is a showcase website for the PLANTAE Taiwan workshop with basic responsive web design (RWD) implemented. In this project, I was responsible for designing the entire web layout and developing it using React. The goal was to create a visually appealing and user-friendly showcase website.',
-        url: 'https://chungyingho.github.io/plantae-taiwan/'
+        url: 'https://chungyingho.github.io/plantae-taiwan/',
+        rwd: '(Supports RWD)'
     },
     {
         id: 3,
         name: 'Color Converter',
         img: colorImg,
         des: 'Color Converter allows users to easily and freely convert between RGB and Hex color codes on both PC and mobile devices. It also provides opacity previews, saving users time on searching for color code conversions. This project is developed using React and accelerates web development through React Bootstrap.',
-        url: 'https://chungyingho.github.io/color-converter/'
+        url: 'https://chungyingho.github.io/color-converter/',
+        rwd: '(Supports RWD)'
     },
     {
         id: 4,

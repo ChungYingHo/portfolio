@@ -26,6 +26,10 @@
     h3 {
         margin: 0;
         color: #ff6600;
+        span{
+            color: rgb(140, 140, 140);
+            font-size: 0.9rem;
+        }
     }
 
     p {
@@ -36,11 +40,12 @@
     a {
         text-decoration: none;
         color: #ff6600;
+        width: fit-content;
     }
 }
 
 // RWD
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .container {
         flex-direction: column;
         img{

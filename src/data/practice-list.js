@@ -9,7 +9,8 @@ const practiceList = [
         name: 'E-commerce Website',
         img: eCommerseImg,
         des: 'This is a front-end development exercise for an e-commerce platform. This practice project includes responsive web design (RWD) that supports various screen sizes and incorporates CSS design (without using JavaScript) to add interactivity, such as the presentation of product images to the webpage.',
-        url: 'https://chungyingho.github.io/E-commerce-Layout/'
+        url: 'https://chungyingho.github.io/E-commerce-Layout/',
+        rwd: '(Supports RWD)'
     },
     {
         id: 2,
