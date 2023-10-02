@@ -2,6 +2,7 @@ import eCommerseImg from '../assets/portfolio/e-commerce.png'
 import lemonImg from '../assets/portfolio/lemon.png'
 import shopImg from '../assets/portfolio/alpha-shop.png'
 import todoImg from '../assets/portfolio/todo-list.png'
+import clockImg from '../assets/portfolio/clock.png'
 
 const practiceList = [
     {
@@ -32,6 +33,13 @@ const practiceList = [
         img: todoImg,
         des: 'This to-do list project is developed using Express, manages data with MongoDB Atlas, and accelerates the creation of the website interface using Bootstrap. Users can easily add, edit, and delete their to-do items.',
         url: 'https://github.com/ChungYingHo/Todo-List-v1.0'
+    },
+    {
+        id: 5,
+        name: 'Analog Clock',
+        img: clockImg,
+        des: `This Analog Clock project showcases my integrated application skills in HTML, CSS, and JavaScript. I used HTML to create the basic structure of the clock, including the hour hand, minute hand, and second hand. CSS was employed to define the positions of these elements and to style the clock's appearance. JavaScript was responsible for the actual functionality of the clock.`,
+        url: 'https://chungyingho.github.io/Analog-Clock/'
     }
 ]
 

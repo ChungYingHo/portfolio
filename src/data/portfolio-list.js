@@ -2,45 +2,37 @@ import twitterImg from '../assets/portfolio/twitter.png'
 import plantaeImg from '../assets/portfolio/plantae.png'
 import colorImg from '../assets/portfolio/color.png'
 import urlImg from '../assets/portfolio/url.png'
-import clockImg from '../assets/portfolio/clock.png'
 
 const portfolioList = [
     {
         id: 1,
-        name: 'Simple Twitter',
-        img: twitterImg,
-        des: 'Our project, Simple Twitter, was developed by a four-person team using a front-end and back-end separation approach in two week. Our goal was to create a simple, multi-functional social platform that includes user registration, login, posting, commenting, liking, following features, and a convenient admin dashboard.',
-        url: 'https://chungyingho.github.io/Twitter/'
+        name: 'PLANTAE Taiwan',
+        img: plantaeImg,
+        des: "PLANTAE Taiwan is a studio showcase website created for a friend's team. I was responsible for all web layout design, UI/UX design, RWD design, and web development. (With the consent of the friend's team, this project has been added to the portfolio).",
+        url: 'https://chungyingho.github.io/plantae-ver2/',
+        rwd: '(Supports RWD)'
     },
     {
         id: 2,
-        name: 'PLANTAE Taiwan',
-        img: plantaeImg,
-        des: 'This project is a showcase website for the PLANTAE Taiwan workshop with basic responsive web design (RWD) implemented. In this project, I was responsible for designing the entire web layout and developing it using React. The goal was to create a visually appealing and user-friendly showcase website.',
-        url: 'https://chungyingho.github.io/plantae-taiwan/',
+        name: 'Front-End Toolbox',
+        img: colorImg,
+        des: 'This Front-End Toolbox allows users to easily look up color codes (including RGB, RGBA, Hex) and quickly experiment with various types of box shadow configurations, whether on a PC or a mobile device.',
+        url: 'https://chungyingho.github.io/frontend-toolbox/',
         rwd: '(Supports RWD)'
     },
     {
         id: 3,
-        name: 'Color Converter',
-        img: colorImg,
-        des: 'Color Converter allows users to easily and freely convert between RGB and Hex color codes on both PC and mobile devices. It also provides opacity previews, saving users time on searching for color code conversions. This project is developed using React and accelerates web development through React Bootstrap.',
-        url: 'https://chungyingho.github.io/color-converter/',
-        rwd: '(Supports RWD)'
+        name: 'URL Shortener',
+        img: urlImg,
+        des: 'The URL Shortener is a personal project developed using Express.js, Handlebars, and MySQL. This web application allows users to simplify long URLs into easily shareable short URLs, providing a convenient way to manage links on the web.',
+        url: 'http://url-shortener-dev.ap-northeast-1.elasticbeanstalk.com/'
     },
     {
         id: 4,
-        name: 'URL Shortener',
-        img: urlImg,
-        des: 'The URL Shortener is a personal project developed using Express.js, Handlebars, and MongoDB Atlas. This web application allows users to simplify long URLs into easily shareable short URLs, providing a convenient way to manage links on the web.',
-        url: 'https://github.com/ChungYingHo/URL-Shortener/tree/main'
-    },
-    {
-        id: 5,
-        name: 'Analog Clock',
-        img: clockImg,
-        des: `This Analog Clock project showcases my integrated application skills in HTML, CSS, and JavaScript. I used HTML to create the basic structure of the clock, including the hour hand, minute hand, and second hand. CSS was employed to define the positions of these elements and to style the clock's appearance. JavaScript was responsible for the actual functionality of the clock.`,
-        url: 'https://chungyingho.github.io/Analog-Clock/'
+        name: 'Simple Twitter',
+        img: twitterImg,
+        des: 'Our project, Simple Twitter, was developed by a four-person team using a front-end and back-end separation approach in two week. Our goal was to create a simple, multi-functional social platform that includes user registration, login, posting, commenting, liking, following features, and a convenient admin dashboard. (The API server has been deactivated, and now the project only consists of the frontend interface.)',
+        url: 'https://chungyingho.github.io/Twitter/'
     }
 ]
 

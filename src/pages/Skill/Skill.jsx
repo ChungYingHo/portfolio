@@ -30,6 +30,7 @@ export default function Skill(){
                         <SkillCard img={require('../../assets/nodejs.png')} alt={'node'} name={'Node.js'}/>
                         <SkillCard img={require('../../assets/express.png')} alt={'express'} name={'Express'}/>
                         <SkillCard img={require('../../assets/MongoDB_ForestGreen.png')} alt={'MongoDB'} name={'MongoDB'}/>
+                        <SkillCard img={require('../../assets/mysql.png')} alt={'MongoDB'} name={'MySQL'}/>
                     </div>
                 </div>
             </div>

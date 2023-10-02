@@ -52,10 +52,19 @@
     }
 }
 
+.icon-container{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
 .icon{
     width: 2rem;
     cursor: pointer;
     margin: 0 0.5rem;
+    &:hover{
+        width: 2.5rem;
+    }
 }
 
 // RWD
@@ -76,5 +85,8 @@
         transform: translate(0, 0);
         width: 100%;
         text-align: center;
+    }
+    .icon-container{
+        justify-content: center;
     }
 }
